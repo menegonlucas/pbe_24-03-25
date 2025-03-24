@@ -17,9 +17,11 @@ routes.put('/pizzas/:id', pizzas.update);
 routes.delete('/pizzas/:id', pizzas.del);
 
 routes.get('/pedidos', pedidos.read);
-routes.get('/pedidos', pedidos.readOne);
+routes.get('/pedidos/:id', pedidos.readOne);
 routes.post('/pedidos', pedidos.create);
 routes.put('/pedidos/:id', pedidos.update);
 routes.delete('/pedidos/:id', pedidos.del);
+
+
 
 module.exports = routes;

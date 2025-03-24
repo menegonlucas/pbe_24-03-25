@@ -1,1 +1,339 @@
-{"_type":"export","__export_format":4,"__export_date":"2025-03-24T12:54:32.621Z","__export_source":"insomnia.desktop.app:v10.3.1","resources":[{"_id":"req_7c16357478f344b5b10c9ced330f99eb","parentId":"fld_8aa6d2866d944da8b210b80a5c67738f","modified":1742820800149,"created":1742820386315,"url":"http://localhost:4000/pedidos/2","name":"ReadONE","description":"","method":"GET","body":{},"parameters":[],"headers":[{"name":"User-Agent","value":"insomnia/10.3.1"}],"authentication":{},"metaSortKey":-1742817615817,"isPrivate":false,"pathParameters":[],"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"fld_8aa6d2866d944da8b210b80a5c67738f","parentId":"wrk_667a8812c0354d068a5f0212d5d54e22","modified":1742817449054,"created":1742817449054,"name":"Pedidos","description":"","environment":{},"environmentPropertyOrder":null,"metaSortKey":-1742817449054,"environmentType":"kv","_type":"request_group"},{"_id":"wrk_667a8812c0354d068a5f0212d5d54e22","parentId":null,"modified":1742817427242,"created":1742817427242,"name":"Pizzaria - Aula 5 - 24-03-25","description":"","scope":"collection","_type":"workspace"},{"_id":"req_8a50d7f8c8b64211a63f00c55cc3f593","parentId":"fld_8aa6d2866d944da8b210b80a5c67738f","modified":1742817775126,"created":1742817609160,"url":"http://localhost:4000/pedidos","name":"Read","description":"","method":"GET","body":{},"parameters":[],"headers":[{"name":"User-Agent","value":"insomnia/10.3.1"}],"authentication":{},"metaSortKey":-1742817615717,"isPrivate":false,"pathParameters":[],"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"req_6560bb5c60ac47069fd81bfeba60b6ef","parentId":"fld_8aa6d2866d944da8b210b80a5c67738f","modified":1742820351743,"created":1742817711291,"url":"http://localhost:4000/pedidos","name":"Create","description":"","method":"POST","body":{"mimeType":"application/json","text":"{\n  \"data\": \"2025-03-24T15:00:00Z\",\n  \"hora\": \"2025-03-24T15:30:00Z\",\n  \"valor\": 29.00,\n  \"clienteId\": 4,\n  \"pizzas\": [\n    7\n  ]\n}"},"parameters":[],"headers":[{"name":"Content-Type","value":"application/json"},{"name":"User-Agent","value":"insomnia/10.3.1"}],"authentication":{},"metaSortKey":-1742514843488.5,"isPrivate":false,"pathParameters":[],"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"req_b54d52ed59564f8dacfa1255b1e677d8","parentId":"fld_8aa6d2866d944da8b210b80a5c67738f","modified":1742817781704,"created":1742817721925,"url":"http://localhost:4000/pedidos","name":"Update","description":"","method":"PUT","body":{},"parameters":[],"headers":[{"name":"User-Agent","value":"insomnia/10.3.1"}],"authentication":{},"metaSortKey":-1742363457374.25,"isPrivate":false,"pathParameters":[],"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"req_854c2760a8a84edd8369e8dd4c8e3ca8","parentId":"fld_8aa6d2866d944da8b210b80a5c67738f","modified":1742820154557,"created":1742817733737,"url":"http://localhost:4000/pedidos/1","name":"Delete","description":"","method":"DELETE","body":{},"parameters":[],"headers":[{"name":"User-Agent","value":"insomnia/10.3.1"}],"authentication":{},"metaSortKey":-1742287764317.125,"isPrivate":false,"pathParameters":[],"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"req_d22bb7c0b0174bdb9449ff38b1b65853","parentId":"fld_7ebdd17998134f0a8f0330c5de184c45","modified":1742817860602,"created":1742817840325,"url":"http://localhost:4000/clientes","name":"Delete","description":"","method":"DELETE","body":{},"parameters":[],"headers":[{"name":"User-Agent","value":"insomnia/10.3.1"}],"authentication":{},"metaSortKey":-1742817748956,"isPrivate":false,"pathParameters":[],"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"fld_7ebdd17998134f0a8f0330c5de184c45","parentId":"wrk_667a8812c0354d068a5f0212d5d54e22","modified":1742817442781,"created":1742817442781,"name":"Clientes","description":"","environment":{},"environmentPropertyOrder":null,"metaSortKey":-1742817442781,"environmentType":"kv","_type":"request_group"},{"_id":"req_8f1e528184394a6e80df64e3b73c53a5","parentId":"fld_7ebdd17998134f0a8f0330c5de184c45","modified":1742817857068,"created":1742817833666,"url":"http://localhost:4000/clientes","name":"Update","description":"","method":"PUT","body":{},"parameters":[],"headers":[{"name":"User-Agent","value":"insomnia/10.3.1"}],"authentication":{},"metaSortKey":-1742817748856,"isPrivate":false,"pathParameters":[],"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"req_0e9963d24441477aa82099acb840a8f0","parentId":"fld_7ebdd17998134f0a8f0330c5de184c45","modified":1742818935228,"created":1742817825883,"url":"http://localhost:4000/clientes","name":"Create","description":"","method":"POST","body":{"mimeType":"application/json","text":"{\n  \"nome\": \"Pedro Santos\",\n  \"cpf\": \"654.321.987-00\",\n  \"email\": \"pedro.santos@example.com\",\n  \"bairro\": \"Bairro Alto\",\n  \"numero\": 90,\n  \"logradouro\": \"Rua das Acácias\",\n  \"telefone\": \"654321987\"\n}"},"parameters":[],"headers":[{"name":"Content-Type","value":"application/json"},{"name":"User-Agent","value":"insomnia/10.3.1"}],"authentication":{},"metaSortKey":-1742817748756,"isPrivate":false,"pathParameters":[],"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"req_29e026f5a38f4f42ba7104aba846df4e","parentId":"fld_7ebdd17998134f0a8f0330c5de184c45","modified":1742817799103,"created":1742817745473,"url":"http://localhost:4000/clientes","name":"Read","description":"","method":"GET","body":{},"parameters":[],"headers":[{"name":"User-Agent","value":"insomnia/10.3.1"}],"authentication":{},"metaSortKey":-1742817748656,"isPrivate":false,"pathParameters":[],"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"req_3eec5976ac8d4644923e326fcc762a32","parentId":"fld_0e731904d6fe453081d5d81ec55a8186","modified":1742817941294,"created":1742817928581,"url":"http://localhost:4000/pizzas","name":"Delete","description":"","method":"DELETE","body":{},"parameters":[],"headers":[{"name":"User-Agent","value":"insomnia/10.3.1"}],"authentication":{},"metaSortKey":-1742817883425,"isPrivate":false,"pathParameters":[],"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"fld_0e731904d6fe453081d5d81ec55a8186","parentId":"wrk_667a8812c0354d068a5f0212d5d54e22","modified":1742817436630,"created":1742817436630,"name":"Pizzas","description":"","environment":{},"environmentPropertyOrder":null,"metaSortKey":-1742817436630,"environmentType":"kv","_type":"request_group"},{"_id":"req_218babcd8fe842a1bb7ad478fa8c6756","parentId":"fld_0e731904d6fe453081d5d81ec55a8186","modified":1742817945081,"created":1742817917188,"url":"http://localhost:4000/pizzas","name":"Update","description":"","method":"PUT","body":{},"parameters":[],"headers":[{"name":"User-Agent","value":"insomnia/10.3.1"}],"authentication":{},"metaSortKey":-1742817883325,"isPrivate":false,"pathParameters":[],"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"req_e41149cdfbea4692ae827d9979f4e3a5","parentId":"fld_0e731904d6fe453081d5d81ec55a8186","modified":1742819867841,"created":1742817889086,"url":"http://localhost:4000/pizzas","name":"Create","description":"","method":"POST","body":{"mimeType":"application/json","text":"{\n  \"nome\": \"Chocolate\",\n  \"descricao\": \"Pizza doce com chocolate ao leite\",\n  \"valor\": 27.00\n}"},"parameters":[],"headers":[{"name":"Content-Type","value":"application/json"},{"name":"User-Agent","value":"insomnia/10.3.1"}],"authentication":{},"metaSortKey":-1742817883225,"isPrivate":false,"pathParameters":[],"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"req_bdf2e29770a04e93a58535770a255dd1","parentId":"fld_0e731904d6fe453081d5d81ec55a8186","modified":1742817953128,"created":1742817881335,"url":"http://localhost:4000/pizzas","name":"Read","description":"","method":"GET","body":{},"parameters":[],"headers":[{"name":"User-Agent","value":"insomnia/10.3.1"}],"authentication":{},"metaSortKey":-1742817883125,"isPrivate":false,"pathParameters":[],"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"env_3bff31725a8e354ba165949c3ed75286f8894495","parentId":"wrk_667a8812c0354d068a5f0212d5d54e22","modified":1742817427251,"created":1742817427251,"name":"Base Environment","data":{},"dataPropertyOrder":null,"color":null,"isPrivate":false,"metaSortKey":1742817427251,"environmentType":"kv","_type":"environment"},{"_id":"jar_3bff31725a8e354ba165949c3ed75286f8894495","parentId":"wrk_667a8812c0354d068a5f0212d5d54e22","modified":1742817427256,"created":1742817427256,"name":"Default Jar","cookies":[],"_type":"cookie_jar"}]}
+type: collection.insomnia.rest/5.0
+name: Pizzaria - Aula 5 - 24-03-25
+meta:
+  id: wrk_667a8812c0354d068a5f0212d5d54e22
+  created: 1742817427242
+  modified: 1742817427242
+collection:
+  - name: Pizzas
+    meta:
+      id: fld_0e731904d6fe453081d5d81ec55a8186
+      created: 1742817436630
+      modified: 1742817436630
+      sortKey: -1742817436630
+    children:
+      - url: http://localhost:4000/pizzas
+        name: Read
+        meta:
+          id: req_bdf2e29770a04e93a58535770a255dd1
+          created: 1742817881335
+          modified: 1742817953128
+          isPrivate: false
+          sortKey: -1742817883125
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/10.3.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:4000/pizzas
+        name: Create
+        meta:
+          id: req_e41149cdfbea4692ae827d9979f4e3a5
+          created: 1742817889086
+          modified: 1742819867841
+          isPrivate: false
+          sortKey: -1742817883225
+        method: POST
+        body:
+          mimeType: application/json
+          text: |-
+            {
+              "nome": "Chocolate",
+              "descricao": "Pizza doce com chocolate ao leite",
+              "valor": 27.00
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/10.3.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:4000/pizzas
+        name: Update
+        meta:
+          id: req_218babcd8fe842a1bb7ad478fa8c6756
+          created: 1742817917188
+          modified: 1742817945081
+          isPrivate: false
+          sortKey: -1742817883325
+        method: PUT
+        headers:
+          - name: User-Agent
+            value: insomnia/10.3.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:4000/pizzas
+        name: Delete
+        meta:
+          id: req_3eec5976ac8d4644923e326fcc762a32
+          created: 1742817928581
+          modified: 1742817941294
+          isPrivate: false
+          sortKey: -1742817883425
+        method: DELETE
+        headers:
+          - name: User-Agent
+            value: insomnia/10.3.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+  - name: Clientes
+    meta:
+      id: fld_7ebdd17998134f0a8f0330c5de184c45
+      created: 1742817442781
+      modified: 1742817442781
+      sortKey: -1742817442781
+    children:
+      - url: http://localhost:4000/clientes
+        name: Read
+        meta:
+          id: req_29e026f5a38f4f42ba7104aba846df4e
+          created: 1742817745473
+          modified: 1742817799103
+          isPrivate: false
+          sortKey: -1742817748656
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/10.3.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:4000/clientes
+        name: Create
+        meta:
+          id: req_0e9963d24441477aa82099acb840a8f0
+          created: 1742817825883
+          modified: 1742818935228
+          isPrivate: false
+          sortKey: -1742817748756
+        method: POST
+        body:
+          mimeType: application/json
+          text: |-
+            {
+              "nome": "Pedro Santos",
+              "cpf": "654.321.987-00",
+              "email": "pedro.santos@example.com",
+              "bairro": "Bairro Alto",
+              "numero": 90,
+              "logradouro": "Rua das Acácias",
+              "telefone": "654321987"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/10.3.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:4000/clientes
+        name: Update
+        meta:
+          id: req_8f1e528184394a6e80df64e3b73c53a5
+          created: 1742817833666
+          modified: 1742817857068
+          isPrivate: false
+          sortKey: -1742817748856
+        method: PUT
+        headers:
+          - name: User-Agent
+            value: insomnia/10.3.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:4000/clientes
+        name: Delete
+        meta:
+          id: req_d22bb7c0b0174bdb9449ff38b1b65853
+          created: 1742817840325
+          modified: 1742817860602
+          isPrivate: false
+          sortKey: -1742817748956
+        method: DELETE
+        headers:
+          - name: User-Agent
+            value: insomnia/10.3.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+  - name: Pedidos
+    meta:
+      id: fld_7c4bed521e9d40578cb121cd74c6c7a2
+      created: 1742825150996
+      modified: 1742825150996
+      sortKey: -1742817445917.5
+    children:
+      - url: http://localhost:4000/pedidos
+        name: Read
+        meta:
+          id: req_200232437a6b49dc947a48866b7a5273
+          created: 1742825150998
+          modified: 1742825150998
+          isPrivate: false
+          sortKey: -1742817615717
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/10.3.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:4000/pedidos
+        name: Create
+        meta:
+          id: req_82d8280502b34770bbcde50e458a86b0
+          created: 1742825150999
+          modified: 1742826079787
+          isPrivate: false
+          sortKey: -1742514843488.5
+        method: POST
+        body:
+          mimeType: application/json
+          text: |-
+            {
+              "data": "2025-03-24T12:00:00Z",
+              "hora": "2025-03-24T12:30:00Z",
+              "valor": 55.50,
+              "clienteId": 1,
+              "pizzas": [
+                1, 2
+              ]
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/10.3.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:4000/pedidos
+        name: Update
+        meta:
+          id: req_78e045841bf74bb0b753e3135834e735
+          created: 1742825151000
+          modified: 1742825151000
+          isPrivate: false
+          sortKey: -1742363457374.25
+        method: PUT
+        headers:
+          - name: User-Agent
+            value: insomnia/10.3.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:4000/pedidos/11
+        name: Delete
+        meta:
+          id: req_87707cf9b3f74a2d9114632d0a6e57cd
+          created: 1742825151002
+          modified: 1742826212886
+          isPrivate: false
+          sortKey: -1742287764317.125
+        method: DELETE
+        headers:
+          - name: User-Agent
+            value: insomnia/10.3.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:4000/pedidos/20
+        name: ReadONE - pedidos pizza
+        meta:
+          id: req_6e2fd0cd06534cafbe65db7bbfc90327
+          created: 1742825151003
+          modified: 1742826287364
+          isPrivate: false
+          sortKey: -1742817615817
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/10.3.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_3bff31725a8e354ba165949c3ed75286f8894495
+    created: 1742817427256
+    modified: 1742817427256
+environments:
+  name: Base Environment
+  meta:
+    id: env_3bff31725a8e354ba165949c3ed75286f8894495
+    created: 1742817427251
+    modified: 1742817427251
+    isPrivate: false
